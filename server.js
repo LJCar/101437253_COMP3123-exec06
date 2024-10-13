@@ -2,8 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
-const DB_URL = 'mongodb+srv://ljcaridi:COMP3123@cluster0.o9paj.mongodb.net' +
-    '/?retryWrites=true&w=majority&appName=Cluster0'
+const DB_URL = 'mongodb+srv://ljcaridi:COMP3123@cluster0.o9paj.mongodb.net/' +
+    'comp3123_lab6?retryWrites=true&w=majority&appName=Cluster0'
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }))
